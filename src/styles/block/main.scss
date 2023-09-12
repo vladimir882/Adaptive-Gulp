@@ -1,0 +1,61 @@
+/*---------------------------------------*/
+.main-title {
+  text-transform: uppercase;
+  @include card-text(14px, 700, 22px);
+  padding: 38px 0 23px 0;
+}
+
+.main-card-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.main-card__title {
+  @include card-text(14px, 700, 30px)
+}
+
+.main-card__title-paragraph {
+  @include card-text(12px, 400, 20px);
+  color: $ui-subtitle-color;
+  padding-bottom: 13px;
+}
+
+.main-card__title-paragraph-text {
+  display: none;
+}
+
+/*---------------------------------------*/
+.main-title-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.main-title__link {
+  display: none;
+}
+
+.main-instagram {
+  display: flex;
+  margin-bottom: 42px;
+}
+
+.main-instagram__img {
+  min-width: 279px;
+}
+
+.main-instagram__img-2 {
+  display: none;
+}
+.main-instagram__img-3 {
+  display: none;
+}
+.main-instagram__img-4 {
+  display: none;
+}
+/*---------------------------------------*/
+
+
+
+
+

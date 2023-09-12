@@ -1,0 +1,20 @@
+// FONTS //
+@mixin main-font {
+  font-family: "Roboto", sans-serif;
+}
+
+// CENTER SAMPLE //
+@mixin ui-flex($jc, $ai) {
+  display: flex;
+  justify-content: $jc;
+  align-items: $ai;
+}
+
+// CARD SAMPLE //
+@mixin card-text($font-size, $font-weight, $line-height){
+  font-size: $font-size;
+  font-weight: $font-weight;
+  line-height: $line-height;
+}
+
+

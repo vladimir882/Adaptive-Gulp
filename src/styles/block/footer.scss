@@ -1,0 +1,70 @@
+.footer-background-wrapper {
+  width: 100%;
+  min-height: 335px;
+  background-color: black;
+}
+
+.footer-content {
+  text-align: center;
+}
+
+.footer-title {
+  @include card-text(16px, 700, 22px);
+  text-transform: uppercase;
+}
+
+.footer-title-white {
+  color: #FEFEFE;
+  padding: 38px 0 8px;
+}
+
+.footer-title__paragraph {
+  @include card-text(14px, 400, 26px);
+  color: $ui-text-color-footer;
+  padding-bottom: 26px;
+}
+
+.footer-title__paragraph-change {
+  display: none;
+}
+
+.footer-wrapper__img {
+  display: flex;
+  justify-content: center;
+  gap: 2px;
+}
+
+.footer-icons {
+  width: 34px;
+  height: 34px;
+  border-radius: 50%;
+  @include ui-flex(center, center);
+}
+
+.footer-icons__rss {
+  border: 2px solid #F8902E;
+}
+.footer-icons__facebook {
+  border: 2px solid #39599F;
+}
+.footer-icons__twitter {
+  border: 2px solid #45B0E3;
+}
+.footer-icons__dribbble {
+  border: 2px solid #D97AB0;
+}
+.footer-icons__pinterest {
+  border: 2px solid #CC212C;
+}
+
+.footer-contact__container {
+  padding-top: 25px;
+  @include ui-flex(center, center);
+  flex-direction: column;
+  @include card-text(14px, 400, 26px);
+  color: $ui-text-color-footer;
+}
+
+.footer-contact__contact-link {
+  color: inherit;
+}
